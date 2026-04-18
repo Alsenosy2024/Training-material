@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-tajawal: "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --font-noto: "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Fallback matching the original CSS provided by user */
+  direction: rtl;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
